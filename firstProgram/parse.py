@@ -1,5 +1,6 @@
 import lxml.html
 import requests as req 
+from db import passSchema
 
 gold_url = 'https://www.investing.com/commodities/gold-historical-data/'
 silver_url = 'https://www.investing.com/commodities/silver-historical-data/'
@@ -47,11 +48,10 @@ def parser(list, url):
 		list.append((convertToNumber(arr[1].strip()), float(arr[2].strip().replace(',','')), convertToDate(arr[1].strip())))
 	return list
 
+goldPrice = parser([],gold_url)
+silverPrice = parser([],silver_url)
 
-# goldPrice = parser([],gold_url)
-# silverPrice = parser([],silver_url)
 
-# print(list2)
 
 
 
