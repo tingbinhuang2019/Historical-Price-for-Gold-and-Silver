@@ -57,7 +57,7 @@ silverPrice = parser([],silver_url)
 
 # insert data to table
 insertData(goldPrice,"gold")
-# insertData(silverPrice,"silver")
+insertData(silverPrice,"silver")
 
 
 
