@@ -1,0 +1,8 @@
+flask
+flask_mysqldb
+numpy
+lxml
+requests
+mysql-connector
+Response
+
