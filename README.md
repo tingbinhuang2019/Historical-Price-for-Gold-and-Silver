@@ -23,3 +23,14 @@ You can do the same to the second program:
 1. cd secondProgram
 2. python3 app.py
 ```
+
+#### Bonus 
+
+```
+The following is the step to run file in "bonus" directory: 
+
+1. cd bonus 
+2. docker-compose up 
+
+```
+
