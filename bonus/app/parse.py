@@ -21,11 +21,11 @@ month = {
 
 config = {
 
-    'user': 'root',
-    'password': 'root',
-    'host': '127.0.0.1',
-    'port': 32000,
-    'database': 'price'
+    'user': 'tin',
+    'password': '123',
+    'host': 'db',
+    'ports': '3306',
+    'database': 'goldAndSilver'
 
 }
 
@@ -66,7 +66,7 @@ def parser(list, url):
 
 def insertData(list, table):
     connection = mysql.connector.connect(
-        host='db', user='root', password='root', database='goldAndSilver', port=3306)
+        host=config["host"], user=config["user"], password=config["password"], database=config["database"], port=config["ports"])
 
     cur = connection.cursor()
     for t in list[::-1]:
@@ -88,6 +88,3 @@ def insertToDB():
     # insert data to table
     insertData(goldPrice, "gold")
     insertData(silverPrice, "silver")
-
-
-# insertToDB()
