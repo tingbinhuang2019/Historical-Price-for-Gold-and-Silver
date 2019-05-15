@@ -24,13 +24,13 @@ You can do the same to the second program:
 2. python3 app.py
 ```
 
-#### Bonus 
+#### Running files in "Bonus" Directory
 
 ```
 The following is the step to run file in "bonus" directory: 
 
 1. cd bonus 
 2. docker-compose up 
-
+3. open browser and type in curl to see the result
 ```
 
