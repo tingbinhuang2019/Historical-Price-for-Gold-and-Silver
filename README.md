@@ -24,7 +24,7 @@ You can do the same to the second program:
 2. python3 app.py
 ```
 
-#### Running files in "Bonus" Directory
+#### Running files in "bonus" Directory
 
 ```
 The following is the step to run file in "bonus" directory: 
