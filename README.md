@@ -7,7 +7,7 @@ This is a program written in Python 3 with using docker compose and MySQL as the
 
 ### Set up 
 
-#### First && Second Program
+#### First   &    Second Program
 ```
 The following is the steps to install all dependencies to run the first and second program. 
 
