@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 # Please change user and password in order to connect to mysql database
 config = {
-    'user': 'root',
-    'password': '123',
+    'user': 'xxxx',
+    'password': 'xxx',
     'host': 'localhost',
     'database': 'gold_and_silver_price'
 }
