@@ -32,5 +32,10 @@ The following is the step to run file in "bonus" directory:
 1. cd bonus 
 2. docker-compose up 
 3. open browser and type in curl to see the result
+
+Some example of curl:
+
+http://127.0.0.1:8080/commodity?start_date=2019-05-10&end_date=2019-05-15&commodity_type=gold
+
 ```
 
