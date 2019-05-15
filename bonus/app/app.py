@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 config = {
 
-    'user': 'root',
-    'password': 'root',
+    'user': 'tin',
+    'password': '123',
     'host': 'db',
-    'port': 3306,
+    'ports': '3306',
     'database': 'goldAndSilver'
 
 }
