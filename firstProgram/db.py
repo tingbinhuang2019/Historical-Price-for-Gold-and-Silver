@@ -61,7 +61,3 @@ def insertData(list, table):
 
         connection.commit()
     connection.close()
-
-
-# Call function 'passSchema' to create database and tables.
-# passSchema()
