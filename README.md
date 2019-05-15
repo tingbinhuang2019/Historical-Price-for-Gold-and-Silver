@@ -2,5 +2,5 @@
 
 ### Description 
 ```
-This is a program written in Python 3 with using MySQL as the database and docker compose.
+This is a program written in Python 3 with using docker compose and MySQL as the database.
 ```
