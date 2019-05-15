@@ -9,7 +9,7 @@ This is a program written in Python 3 with using docker compose and MySQL as the
 
 #### First   &    Second Program
 ```
-The following is the steps to install all dependencies to run the first and second program. 
+The following is the step to install all dependencies in order to run the first and second program in python 3. 
 
 1. pip3 install -r dependencies.txt
 ```
