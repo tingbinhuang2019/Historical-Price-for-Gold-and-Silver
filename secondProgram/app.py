@@ -8,13 +8,12 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# Please change user and password in order to connect to mysql database
 config = {
-
     'user': 'root',
     'password': '123',
     'host': 'localhost',
     'database': 'gold_and_silver_price'
-
 }
 
 
