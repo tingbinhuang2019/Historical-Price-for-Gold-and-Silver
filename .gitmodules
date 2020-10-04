@@ -1,3 +1,6 @@
 [submodule "Neo-Bank"]
 	path = Neo-Bank
 	url = https://github.com/tingbinhuang2019/Neo-Bank.git
+[submodule "JavaPractice"]
+	path = JavaPractice
+	url = https://github.com/tingbinhuang2019/JavaPractice.git
