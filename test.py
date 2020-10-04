@@ -1,6 +1,10 @@
 import sys 
-sys.path.insert(1,'Neo-Bank')
-import NeoBank.check as nb
+sys.path.insert(1,'JavaPractice')
+import JavaPractice.check as jp
 
 
 def test():
+
+	jp.check("thing")
+
+test()
